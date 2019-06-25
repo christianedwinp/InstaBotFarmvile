@@ -36,14 +36,19 @@ def guess_number():
     return random.choice('1234567890')
 #chooses PROXY AFTER EACH OTHER
 def randomproxy():
-    file = open("./autoaccount/proxy.txt")
+    # file = open("./autoaccount/proxy.txt")
+    file = open("./Gliitch/proxy.txt")
     for line in file:
           fields = line.split(";")
     return random.choice(fields)
 
 def random_surname():
 
-    Names = ('Demir', 'Bala', 'yilmaz', 'Ediz',
+    Names = (
+        'Chan', 'Lee', 'Wong', 'Ho',
+		'Cheung', 'Li', 'Tam', 'Lau',
+		'Tse', 'Ma', 'Kwan', 'Yip'
+        'Demir', 'Bala', 'yilmaz', 'Ediz',
 		'yasar', 'Ozbal', 'Aydin', 'kara',
 		'Bakar', 'Zengin', 'Bilgin', 'Kilic',
 		'karabulut', 'Abbas', 'Hammoud', 'Alan',

@@ -1,3 +1,17 @@
+## PREFACE
+
+installing requirement.txt directly will make you faced some erros, run following command prior you run the requirement.txt
+
+```
+apt install libcurl4-openssl-dev libssl-dev
+
+
+```
+
+
+
+
+
 ## InstaBotAuto
 
 - Clone Repository

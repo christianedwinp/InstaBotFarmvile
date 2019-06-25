@@ -21,7 +21,7 @@ else
 fi
 
 
-limit=10
+limit=1
 counter=1
 while [ $counter -le $limit ]
 do
