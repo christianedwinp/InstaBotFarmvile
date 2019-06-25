@@ -21,7 +21,7 @@ else
 fi
 
 
-limit=1
+limit=2
 counter=1
 while [ $counter -le $limit ]
 do
@@ -42,7 +42,7 @@ cat < ./secret.txt | while IFS=: read -r userName password; do \
  echo "$userName"
  echo "$password";
 
-limit=10
+limit=2
 counter=1
 while [ $counter -le $limit ]
 do
